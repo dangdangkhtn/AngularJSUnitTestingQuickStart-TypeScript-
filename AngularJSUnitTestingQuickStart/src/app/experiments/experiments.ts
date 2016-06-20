@@ -92,4 +92,5 @@ angular.module('myApp.experiments', [
             link: linker,
             controller: CustomDirectiveController
         }
-    });
+    })
+    ;

@@ -6,7 +6,7 @@ describe('Unit: App', function () {
     // Include Modules
     beforeEach(angular.mock.module('myApp'));
     beforeEach(angular.mock.module('myApp.about'));
-    //beforeEach(angular.mock.module('myApp.experiments'));
+    beforeEach(angular.mock.module('myApp.experiments'));
     beforeEach(angular.mock.module('myApp.home'));
     beforeEach(angular.mock.module('myApp.models.messages'));
     beforeEach(angular.mock.module('ui.router'));

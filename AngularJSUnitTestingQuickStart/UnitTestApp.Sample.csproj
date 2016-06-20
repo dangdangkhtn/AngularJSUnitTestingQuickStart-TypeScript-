@@ -52,6 +52,8 @@
     <Content Include="Scripts\angular-scenario.js" />
     <Content Include="Scripts\angular-touch.js" />
     <Content Include="Scripts\angular-touch.min.js" />
+    <Content Include="Scripts\angular-ui-router.js" />
+    <Content Include="Scripts\angular-ui-router.min.js" />
     <Content Include="Scripts\angular.js" />
     <Content Include="Scripts\angular.min.js" />
     <Content Include="Scripts\i18n\angular-locale_aa-dj.js" />
@@ -849,10 +851,12 @@
     <TypeScriptCompile Include="src\app\app.ts" />
     <TypeScriptCompile Include="src\app\common\models\messages-model.spec.ts" />
     <TypeScriptCompile Include="src\app\common\models\messages-model.ts" />
+    <TypeScriptCompile Include="src\app\experiments\experiments.spec.ts" />
     <TypeScriptCompile Include="src\app\experiments\experiments.ts" />
     <TypeScriptCompile Include="src\app\home\home.spec.ts" />
     <TypeScriptCompile Include="src\app\home\home.ts" />
     <TypeScriptCompile Include="Scripts\typings\angularjs\angular-ui-router.d.ts" />
+    <TypeScriptCompile Include="src\assets\js\unit-test-helpers.ts" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="packages.config" />
