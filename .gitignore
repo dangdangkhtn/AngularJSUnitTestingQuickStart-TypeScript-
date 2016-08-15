@@ -1,3 +1,5 @@
 AngularJSUnitTestingQuickStart/obj/Debug/
 packages/
 AngularJSUnitTestingQuickStart/bin/
+AngularJSUnitTestingQuickStart/**/*.js.map
+AngularJSUnitTestingQuickStart/node_modules/
