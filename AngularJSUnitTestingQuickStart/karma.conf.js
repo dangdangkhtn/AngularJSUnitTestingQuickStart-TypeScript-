@@ -7,21 +7,19 @@ module.exports = function (config) {
         // base path that will be used to resolve all patterns (eg. files, exclude)
         basePath: '',
 
-
         // frameworks to use
         // available frameworks: https://npmjs.org/browse/keyword/karma-adapter
         frameworks: ['jasmine'],
-
 
         // list of files / patterns to load in the browser
         files: [
             'src/vendor/angular.min.js',
             'src/vendor/angular-mocks.js',
             'src/vendor/angular-ui-router.min.js',
-            'src/assets/js/unit-test-helpers.js',
+            'src/assets/js/unit-test-helpers.ts',
             'src/app/**/*.html',
-            'src/app/**/*.spec.js',
-            'src/app/**/*.js'
+            'src/app/**/*.spec.ts',
+            'src/app/**/*.ts',
         ],
 
         ngHtml2JsPreprocessor: {
@@ -40,9 +38,19 @@ module.exports = function (config) {
         // preprocess matching files before serving them to the browser
         // available preprocessors: https://npmjs.org/browse/keyword/karma-preprocessor
         preprocessors: {
-          'src/app/**/*.html': ['ng-html2js']
+            'src/app/**/*.html': ['ng-html2js'],
+            '**/*.ts': ['typescript']
         },
 
+        typescriptPreprocessor: {
+            options: {
+                sourceMap: true, // generate source maps
+                noResolve: false // enforce type resolution
+            },
+            transformPath: function (path) {
+                return path.replace(/\.ts$/, '.js');
+            }
+        },
 
         // test results reporter to use
         // possible values: 'dots', 'progress'

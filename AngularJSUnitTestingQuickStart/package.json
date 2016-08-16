@@ -11,7 +11,9 @@
   "devDependencies": {
     "karma": "^0.12.24",
     "karma-chrome-launcher": "^0.1.5",
-    "karma-jasmine": "^0.2.3"
+    "karma-jasmine": "^0.2.3",
+    "karma-typescript-preprocessor": "^0.2.1",
+    "typescript": "^1.8.10"
   },
   "author": "Lukas Ruebbelke",
   "license": "ISC"

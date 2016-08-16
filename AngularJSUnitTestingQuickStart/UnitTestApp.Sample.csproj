@@ -24,6 +24,7 @@
   <ItemGroup>
     <Content Include="Content\jasmine\jasmine.css" />
     <Content Include="Content\jasmine\jasmine_favicon.png" />
+    <Content Include="karma.conf.js" />
     <Content Include="lib\jasmine-2.4.1\boot.js" />
     <Content Include="lib\jasmine-2.4.1\console.js" />
     <Content Include="lib\jasmine-2.4.1\jasmine-html.js" />
@@ -807,12 +808,12 @@
     <Content Include="Scripts\jasmine\console.js" />
     <Content Include="Scripts\jasmine\jasmine-html.js" />
     <Content Include="Scripts\jasmine\jasmine.js" />
+    <Content Include="package.json" />
     <None Include="Scripts\jquery-2.2.3.intellisense.js" />
     <Content Include="Scripts\jquery-2.2.3.js" />
     <Content Include="Scripts\jquery-2.2.3.min.js" />
     <Content Include="SpecRunner.html" />
     <Content Include="src\app\about\about.tmpl.html" />
-    <Content Include="src\app\experiments\experiments.js" />
     <Content Include="src\app\experiments\experiments.tmpl.html" />
     <Content Include="src\app\home\home.tmpl.html" />
     <Content Include="src\assets\css\bootstrap\css\bootstrap-responsive.css" />
@@ -877,7 +878,6 @@
     <None Include="src\data\experiments.json" />
     <Content Include="Scripts\jquery-2.2.3.min.map" />
     <Content Include="tsconfig.json" />
-    <Content Include="src\app\experiments\experiments.spec.js.bak" />
     <None Include="web.Debug.config">
       <DependentUpon>web.config</DependentUpon>
     </None>
